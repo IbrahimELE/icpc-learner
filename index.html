@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEERC Trainer</title>
+  <meta name="description" content="Interactive training app for the ICPC Southeastern Europe Regional Contest (SEERC): roadmap, lessons, problems, quizzes, visualizers, contest simulator and a local C++ runner.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1115'/%3E%3Cpath d='M18 22h28M18 32h28M18 42h18' stroke='%236ea8fe' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar"></aside>
+    <div id="main">
+      <header id="topbar"></header>
+      <main id="view"></main>
+    </div>
+  </div>
+  <div id="toasts"></div>
+  <div id="modal-root"></div>
+
+  <!-- core -->
+  <script src="js/core/util.js"></script>
+  <script src="js/core/store.js"></script>
+  <script src="js/core/highlight.js"></script>
+  <script src="js/core/markdown.js"></script>
+  <script src="js/core/router.js"></script>
+  <script src="js/core/ui.js"></script>
+  <!-- data -->
+  <script src="js/data/topics.js"></script>
+  <script src="js/data/lessons/foundations.js"></script>
+  <script src="js/data/lessons/core.js"></script>
+  <script src="js/data/lessons/math.js"></script>
+  <script src="js/data/lessons/dp.js"></script>
+  <script src="js/data/lessons/graphs.js"></script>
+  <script src="js/data/lessons/structures.js"></script>
+  <script src="js/data/lessons/strings.js"></script>
+  <script src="js/data/lessons/geometry.js"></script>
+  <script src="js/data/lessons/advanced.js"></script>
+  <script src="js/data/lessons/strategy.js"></script>
+  <script src="js/data/problems.js"></script>
+  <script src="js/data/quiz.js"></script>
+  <script src="js/data/flashcards.js"></script>
+  <script src="js/data/drills.js"></script>
+  <script src="js/data/seerc.js"></script>
+  <script src="js/data/templates.js"></script>
+  <script src="js/data/templates-2.js"></script>
+  <!-- visualizers -->
+  <script src="js/viz/engine.js"></script>
+  <script src="js/viz/basics.js"></script>
+  <script src="js/viz/graphs.js"></script>
+  <script src="js/viz/structures.js"></script>
+  <script src="js/viz/dp.js"></script>
+  <script src="js/viz/strings.js"></script>
+  <script src="js/viz/geometry.js"></script>
+  <!-- pages -->
+  <script src="js/pages/dashboard.js"></script>
+  <script src="js/pages/roadmap.js"></script>
+  <script src="js/pages/topic.js"></script>
+  <script src="js/pages/problems.js"></script>
+  <script src="js/pages/practice.js"></script>
+  <script src="js/pages/visualizers.js"></script>
+  <script src="js/pages/contest.js"></script>
+  <script src="js/pages/seerc.js"></script>
+  <script src="js/pages/cheatsheet.js"></script>
+  <script src="js/pages/tools.js"></script>
+  <script src="js/pages/playground.js"></script>
+  <script src="js/pages/planner.js"></script>
+  <script src="js/pages/settings.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

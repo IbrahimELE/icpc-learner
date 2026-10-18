@@ -1,0 +1,17 @@
+# local tooling and editors
+.claude/
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# scratch
+*.tmp
+.tmpbuild/
